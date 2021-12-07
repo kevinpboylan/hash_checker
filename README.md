@@ -1,2 +1,21 @@
 # hash_checker
 A bash script to check files against a given hash value
+
+###
+Used when you have a given hash value and a bunch of fles, and you want to check to see if any of the files match.  
+###
+
+###
+USAGE:
+./hash_checker <hash_value> <directory>
+###
+
+###
+This was mostly made to practice bash scripting, specifically how to handle user input via arguments, for loops, and file/directory management. 
+###
+
+###
+Features to add in the future:
+-allowing user to choose what hashing algorithm to use 
+  -sha256 vs md5, etc
+###
