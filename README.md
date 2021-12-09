@@ -8,7 +8,7 @@ Used when you have a given hash value and a bunch of fles, and you want to check
 
 ***
 USAGE:
-./hash_checker <hash_value> <directory>
+./hash_checker directory path_to_text_file_with_target_hash_value
 ***
 
 ***
