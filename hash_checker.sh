@@ -2,7 +2,7 @@
 
 for i in $(dir $1)
 	do
-	md5=$(sha256sum "$1/$i" | cut -d  " " -f 1)
+	md5=$(md5sum "$1/$i" | cut -d  " " -f 1)
 	for h in $(cat $2)
 		do
 			if [ "$h" == "$md5" ]
